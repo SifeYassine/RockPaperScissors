@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Rock-Paper-Scisor</title>
+  </head>
+
+  <body>
+    <header></header>
+
+    <main>
+      <!-- <div class="msg1 hidden">
+        <button class="close-msg">&times;</button>
+        <h1>You Win</h1>
+      </div>
+
+      <div class="msg2 hidden">
+        <button class="close-msg">&times;</button>
+        <h1>You Lost</h1>
+      </div> -->
+
+      <section class="control">
+        <input type="number" class="picker" />
+        <div class="btns">
+          <button class="btn play">Play</button>
+          <button class="btn reveal">Reveal</button>
+        </div>
+        <button class="again btn">Play Again!</button>
+      </section>
+
+      <section class="gameplay">
+        <p class="players">
+          Computer: <span class="score-computer">5</span>x❤️
+        </p>
+        <div class="card computer"></div>
+        <div class="card player"></div>
+        <p class="players">You: <span class="score-player">5</span>x❤️</p>
+      </section>
+      <div>
+        <p class="message margins">Pick a hand...Play, then Reveal</p>
+
+        <section class="info">
+          <p class="hands">✊: 1</p>
+          <p class="hands">🖐️: 2</p>
+          <p class="hands">✌️: 3</p>
+        </section>
+
+        <section class="scores margins">
+          <p class="label-highscore">
+            🥇 Highest score: <span class="highscore">0</span>
+          </p>
+        </section>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
