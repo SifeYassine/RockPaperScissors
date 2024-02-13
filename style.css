@@ -110,3 +110,9 @@ p {
 .margins {
   margin: 30px 0px 30px 100px;
 }
+
+footer p {
+  position: absolute;
+  left: 50px;
+  bottom: 20px;
+}
